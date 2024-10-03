@@ -17,7 +17,7 @@ class Calculator:
             raise ZeroDivisionError("Cannot divide by zero.")
         return a / b
 
-
+#calculation history and history retrieval
 
 class Calculation:
     def __init__(self, operation: str, operands: tuple[float, float], result: float):
