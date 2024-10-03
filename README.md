@@ -59,9 +59,9 @@ Check Test Coverage
 To check the test coverage, use the following command:
 ## bash command
 pytest --cov=calculator --cov-report=term-missing
+
 Code Linting
 To check the code quality, you can run pylint:
-
 ###  bash
 pylint calculator.py
 
